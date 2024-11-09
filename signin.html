@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE MULTI PAGE BLOGS</title>
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="./style.css"/>
+          <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+   <nav>
+    <div class="container nav_container">
+        <a href="index.html" class="nav_logo">DIGIFYCE</a>
+        <ul class="nav_item">
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signin.html">Signin</a></li>
+            <li class="nav_profile">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg">
+                </div>
+                <ul>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                    
+                </ul>
+            </li>
+          
+
+        </ul>
+
+         <button id="open_nav-btn"><i class="uil uil-list-ul"></i></button>
+         <button id="close_nav-btn"><i class="uil uil-times-circle"></i></button>
+    </div>
+
+
+   </nav> 
+
+<!-- end of nav  -->
+
+   <section class="form_section">
+    <div class="container form_section-container">
+           <h2>Sign In</h2>
+           <div class="alert_message success">
+            <p>This is an success message</p>
+           </div>
+           <form action="" enctype="multipart/form-data">
+
+                <input type="text" placeholder="Username or Email">
+
+                <input type="password" placeholder="Password">
+                <button type="submit" class="btn"></button>
+                
+                <button type="submit" class="btn">Sign In</button>
+                <small>Don't have account? <a href="signin.html">Sign Up</a></small>
+
+            </form>
+    </div>
+
+</section>
+
+</body>
+</html>
